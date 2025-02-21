@@ -1,0 +1,7 @@
+0000'0101'0000'1011 = 1291 => Ausgangspunkt der Entstehung der Schweizerische eidgenossenschaft
+
+1010'0001'0100'0101 = 41285 => Grosse der schweiz in km^2
+
+0001'0010'0001'1010 = 4634 => Hochste punkt der schweiz m ü. M.
+
+0001'1111'1001'1010 = 8090 => Post-Code von Zurich
