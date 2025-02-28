@@ -1,0 +1,38 @@
+1.
+a) 
+1: ANSI
+2: UTF-8
+3: UTF-16 BE-BOM
+
+b) 68 zeilen
+
+c) 
+1: 68
+2: 71
+3: 138
+
+d) 
+ä und  € sind anders codiert
+ä nutzt in UTF-8 2 Bytes und
+€ nutzt 3
+
+e) 
+UTF-16 nutzt 2 Bytes um dingen zu encodieren, BE spezifiert, dass es den significanten byte 
+im kleinsten addresse speicher, LE im grossten
+
+f)
+ANSI -> UTF-8: es erkennt die zeichen ä und € nicht und gibt den hexwert zuruck
+UTF-8 -> ANSI: die zeichen ä und € werden in mehrere zeichen aufgespalten, wie sie in d waren
+
+g)
+Es präfixiert den byte abhangig von wie lang den encodierten charakter ist:
+
+0xxxxxxx
+110xxxxx 10xxxxxx
+1110xxxx 10xxxxxx 10xxxxxx
+11110xxx 10xxxxxx 10xxxxxx
+
+3.
+{"dt":"1740749003", "ticketNr":"1992", "sitzNr":"88", "tribSek":"C", "uid":"1299912"}
+
+ich wurde empfehlen eine digitale signatur zu implementieren

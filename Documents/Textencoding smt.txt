@@ -1,0 +1,16 @@
+UTF-8 default, UTF-16 DB
+
+Wie den charakter zu lesen ist
+
+Nein
+
+ISO/IEC 8859: 1 Byte
+UTF-8: 2 Bytes
+UTF-16: 2 Bytes
+
+Emojis und mathematische symbole, seltsame buchstaben usw.
+
+einfugen -> symbol -> weitere symbole -> symbol suchen
+
+Es gibt dann keine emojis, man kann aber "Win + ." um einen emoji keyboard zu offnen 
+(dies geht auch fur symbole und sonderzeichen)
